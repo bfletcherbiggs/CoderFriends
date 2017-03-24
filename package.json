@@ -1,0 +1,31 @@
+{
+  "name": "coderfriends",
+  "version": "1.0.0",
+  "description": "<img src=\"https://s3.amazonaws.com/devmountain/www/img/logowhiteblue.png\" width=\"250\" align=\"right\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bfletcherbiggs/CoderFriends.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bfletcherbiggs/CoderFriends/issues"
+  },
+  "homepage": "https://github.com/bfletcherbiggs/CoderFriends#readme",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-session": "^1.15.1",
+    "express-sessions": "^1.0.6",
+    "github2": "^2.4.0",
+    "node-github": "0.0.3",
+    "passport": "^0.3.2",
+    "passport-github2": "^0.1.10",
+    "request": "^2.81.0"
+  }
+}

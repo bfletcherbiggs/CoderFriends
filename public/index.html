@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US" ng-app="coderFriends">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coder Friends</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+
+    <div class="site-wrapper">
+        <header class="site-header" role="banner">
+            <div class="container">
+                <nav class="site-nav">
+                    <ul class="primary-nav">
+                        <li><a ui-sref="login">Login</a></li>
+                        <li><a ui-sref="home">Home</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="site-main" role="main">
+            <ui-view></ui-view>
+        </main>
+    </div>
+
+    <!--ANGULAR-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.3/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
+    <!--APP-->
+    <script src="app.js"></script>
+    <script src="js/services/github-service.js"></script>
+    <script src="js/controllers/homeCtrl.js"></script>
+    <script src="js/controllers/friendCtrl.js"></script>
+</body>

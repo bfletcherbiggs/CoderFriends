@@ -1,0 +1,4 @@
+<div ng-repeat="friend in friends">
+	<a ui-sref="friend({github_username:friend.login})">{{friend.login}}</a>
+	<img ng-src="{{friend.avatar_url}}">
+</div>
